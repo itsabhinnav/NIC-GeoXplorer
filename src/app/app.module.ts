@@ -6,23 +6,36 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MstTableComponent } from './mst-table/mst-table.component';
-import { MatTableModule } from '@angular/material';
-import { ChartComponent } from './chart/chart.component';
+import { MatTableModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
 import { PieChartComponent } from './pie-chart/pie-chart.component' ;
+import { HttpClientModule } from '@angular/common/http';
+import { DashComponent } from './dash/dash.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     MstTableComponent,
-    ChartComponent,
-    PieChartComponent
+    PieChartComponent,
+    DashComponent,
+    BarChartComponent,
+
   ],
   imports: [
     BrowserModule,
     ChartsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatTableModule  
+    MatTableModule,
+    HttpClientModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule,
+    MatIconModule,
+    MatButtonModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

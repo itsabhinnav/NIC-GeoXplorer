@@ -1,17 +1,14 @@
-<app-nav-bar></app-nav-bar>
-<!--
-  <div class="container">
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/Chart">Bar-Chart</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/pie-Chart">Pie-Chart</a>
-        </li>
-    </ul>
-    <div>
-        <router-outlet></router-outlet>
-    </div>
-    </div>
--->
-<app-bar-chart></app-bar-chart>
+<div>
+    <app-nav-bar></app-nav-bar>
+</div>
+<div class="pt-5">
+    <mat-sidenav-container>
+        <mat-sidenav #sidenav mode="side " [(opened)]="opened " (opened)="events.push( 'open!') " (closed)="events.push( 'close!') ">
+            Sidenav content
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+            <p><button mat-button (click)="sidenav.toggle() ">sidenav.toggle()</button></p>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

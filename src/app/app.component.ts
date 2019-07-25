@@ -5,8 +5,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-constructor() {
+  constructor() {
 }
+events: string[] = [];
+opened: boolean;
 ngOnInit() {
 
 }

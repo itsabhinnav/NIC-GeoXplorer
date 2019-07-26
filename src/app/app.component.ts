@@ -5,10 +5,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  constructor() {
-}
-events: string[] = [];
-opened: boolean;
+links=[ {link:'Description', route:'/dash'},
+        {link:'Tabular-View', route:'/pie-Chart'},
+        {link:'Insight-Engine',route:'/insight'},
+        {link:'Analytics-Engine',route:'/Analytics'},
+        {link:'GIS', route:'/GIS'}
+      ];
 ngOnInit() {
 
 }

@@ -12,7 +12,7 @@ import { DashComponent } from './dash/dash.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { MatModule } from './matmodule/mat.module';
-
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,8 @@ import { MatModule } from './matmodule/mat.module';
     AppRoutingModule,
     HttpClientModule,
     LayoutModule,
-    MatModule
+    MatModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

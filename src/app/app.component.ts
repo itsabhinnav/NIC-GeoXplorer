@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 links=[ {link:'Description', route:'/dash'},
-        {link:'Tabular-View', route:'/pie-Chart'},
+        {link:'Tabular-View', route:'/mst-table'},
         {link:'Insight-Engine',route:'/insight'},
         {link:'Analytics-Engine',route:'/Analytics'},
         {link:'GIS', route:'/GIS'}

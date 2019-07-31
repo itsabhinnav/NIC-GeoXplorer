@@ -12,6 +12,12 @@ import { DashComponent } from './dash/dash.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { MatModule } from './matmodule/mat.module';
+<<<<<<< HEAD
+=======
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { DescComponent } from './desc/desc.component';
+
+>>>>>>> b0ca7445e5376f8e7227070c53c6bf2c4c1edf12
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +26,7 @@ import { MatModule } from './matmodule/mat.module';
     PieChartComponent,
     DashComponent,
     BarChartComponent,
+    DescComponent,
 
   ],
   imports: [

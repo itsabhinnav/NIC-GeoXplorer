@@ -7,7 +7,6 @@ import { MstTableComponent} from'./mst-table/mst-table.component';
 import {DescComponent} from './desc/desc.component';
 const approutes: Routes = [
   {path: '' , redirectTo :'dash',pathMatch:'full'},
-  {path:'desc',component:DescComponent},
   {path:'chart', component: BarChartComponent},
   {path:'pie-Chart', component: PieChartComponent},
   {path:'dash', component: DashComponent},

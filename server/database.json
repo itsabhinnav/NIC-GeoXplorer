@@ -4,61 +4,63 @@
         "data": [65, 59, 80, 81, 56, 55, 60],
         "label": "series A"
     }],
-    "mst_table":[
-        {
-          "_id": "1",
-          "age": 35,
-          "eyeColor": "green",
-          "name": "Marva Pearson",
-          "gender": "female",
-          "company": "COASH",
-          "email": "marvapearson@coash.com",
-          "phone": "+1 (988) 540-2818",
-          "address": "769 Willow Street, Snelling, Arizona, 1233"
+    "mst_table": [{
+            "_id": "1",
+            "age": 35,
+            "eyeColor": "green",
+            "name": "Marva Pearson",
+            "gender": "female",
+            "company": "COASH",
+            "email": "marvapearson@coash.com",
+            "phone": "+1 (988) 540-2818",
+            "address": "769 Willow Street, Snelling, Arizona, 1233"
         },
         {
-          "_id": "2",
-          "age": 32,
-          "eyeColor": "green",
-          "name": "Stanley Massey",
-          "gender": "male",
-          "company": "VIAGRAND",
-          "email": "stanleymassey@viagrand.com",
-          "phone": "+1 (901) 502-3065",
-          "address": "909 Paerdegat Avenue, Spokane, Indiana, 1081"
+            "_id": "2",
+            "age": 32,
+            "eyeColor": "green",
+            "name": "Stanley Massey",
+            "gender": "male",
+            "company": "VIAGRAND",
+            "email": "stanleymassey@viagrand.com",
+            "phone": "+1 (901) 502-3065",
+            "address": "909 Paerdegat Avenue, Spokane, Indiana, 1081"
         },
         {
-          "_id": "3",
-          "age": 28,
-          "eyeColor": "blue",
-          "name": "Durham Harrington",
-          "gender": "male",
-          "company": "ZORROMOP",
-          "email": "durhamharrington@zorromop.com",
-          "phone": "+1 (989) 460-3480",
-          "address": "437 Lawrence Street, Eastmont, Hawaii, 5283"
+            "_id": "3",
+            "age": 28,
+            "eyeColor": "blue",
+            "name": "Durham Harrington",
+            "gender": "male",
+            "company": "ZORROMOP",
+            "email": "durhamharrington@zorromop.com",
+            "phone": "+1 (989) 460-3480",
+            "address": "437 Lawrence Street, Eastmont, Hawaii, 5283"
         },
         {
-          "_id": "4",
-          "age": 40,
-          "eyeColor": "blue",
-          "name": "Chaney Frederick",
-          "gender": "male",
-          "company": "QUONATA",
-          "email": "chaneyfrederick@quonata.com",
-          "phone": "+1 (845) 478-3539",
-          "address": "425 Post Court, Summerfield, Palau, 3998"
+            "_id": "4",
+            "age": 40,
+            "eyeColor": "blue",
+            "name": "Chaney Frederick",
+            "gender": "male",
+            "company": "QUONATA",
+            "email": "chaneyfrederick@quonata.com",
+            "phone": "+1 (845) 478-3539",
+            "address": "425 Post Court, Summerfield, Palau, 3998"
         },
         {
-          "_id": "5",
-          "age": 30,
-          "eyeColor": "green",
-          "name": "Mendez Bolton",
-          "gender": "male",
-          "company": "ZILLAR",
-          "email": "mendezbolton@zillar.com",
-          "phone": "+1 (914) 471-2943",
-          "address": "685 Fay Court, Toftrees, Northern Mariana Islands, 838"
+            "_id": "5",
+            "age": 30,
+            "eyeColor": "green",
+            "name": "Mendez Bolton",
+            "gender": "male",
+            "company": "ZILLAR",
+            "email": "mendezbolton@zillar.com",
+            "phone": "+1 (914) 471-2943",
+            "address": "685 Fay Court, Toftrees, Northern Mariana Islands, 838"
         }
-      ]
+    ],
+    "columns": [
+        { "col": ["id", "xyz", "sdsdas", "sdsadsa"] }
+    ]
 }

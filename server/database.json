@@ -60,7 +60,5 @@
             "address": "685 Fay Court, Toftrees, Northern Mariana Islands, 838"
         }
     ],
-    "columns": [
-        { "col": ["id", "xyz", "sdsdas", "sdsadsa"] }
-    ]
+    "columns": [{ "col": ["id", "xyz", "sdsdas", "sdsadsa"] }]
 }

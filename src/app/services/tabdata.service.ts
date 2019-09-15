@@ -6,7 +6,7 @@ import { HttpClient} from '@angular/common/http';
 })
 export class TabdataService {
 
-  apiUrl = 'http://localhost:3010/mst_table';
+  apiUrl = 'http://localhost:3000/mst_table';
 
   getdata(){
     return this.http.get(this.apiUrl);
